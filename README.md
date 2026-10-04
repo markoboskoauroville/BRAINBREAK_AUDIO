@@ -15,13 +15,15 @@ raw link that needs no credential and no permission call.
 
 ## What is in here
 
-    voice/manan/         Manan's own recorded takes, cut on sentence boundaries
-    voice/coachbrain/    Manan reading Coach Brain, same treatment
-    voice/scene19/       the scene as written, read by a stand in voice
-    voice/drama/         the film as a radio drama, English, three voices
-    voice/drama_hr/      the same in Croatian, with the theories spoken
-    reference/voice/     the original synthesised reference reads
-    downloads/           one zip per set, numbered in playing order
+```
+voice/manan/         Manan's own recorded takes, cut on sentence boundaries
+voice/coachbrain/    Manan reading Coach Brain, same treatment
+voice/scene19/       the scene as written, read by a stand in voice
+voice/drama/         the film as a radio drama, English, three voices
+voice/drama_hr/      the same in Croatian, with the theories spoken
+reference/voice/     the original synthesised reference reads
+downloads/           one zip per set, numbered in playing order
+```
 
 Every `.mp3` has a `.json` beside it holding its waveform peaks, computed once here so no browser
 has to decode the audio to draw a waveform.
